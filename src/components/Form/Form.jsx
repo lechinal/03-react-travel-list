@@ -17,7 +17,7 @@ function Form({ onAddItems }) {
     onAddItems(newItem);
 
     setDescription('');
-    setQuantity('');
+    setQuantity(1);
   }
 
   return (
